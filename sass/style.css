@@ -1,0 +1,97 @@
+body {
+  background: #e9fbff;
+  margin-top: 50px;
+}
+
+#wrap {
+  width: 100%;
+}
+#wrap .todolist {
+  width: 500px;
+  margin: auto;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-bottom: 15px;
+  box-shadow: 1px 1px 20px #8ed1fe;
+}
+#wrap .todolist h2 {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  padding: 30px 0;
+}
+#wrap .todolist input {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+#wrap .todolist .output li {
+  border-bottom: 1px solid #dcdcdc;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+#wrap .todolist .output li .check i {
+  font-size: 40px;
+  color: #79c9fe;
+  line-height: 60px;
+}
+#wrap .todolist .output li p {
+  width: 300px;
+  font-size: 22px;
+  line-height: 60px;
+  font-weight: 300;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+}
+#wrap .todolist .output li p input {
+  transform: translateY(38%);
+}
+#wrap .todolist .output li .correction {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #8ed1fe;
+  border-radius: 50%;
+  position: relative;
+}
+#wrap .todolist .output li .correction:hover {
+  box-shadow: 1px 1px 15px #79c9fe;
+}
+#wrap .todolist .output li .correction i {
+  line-height: 40px;
+  font-size: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #79c9fe;
+}
+#wrap .todolist .output li .delete {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #8ed1fe;
+  border-radius: 50%;
+  position: relative;
+}
+#wrap .todolist .output li .delete:hover {
+  box-shadow: 1px 1px 15px #79c9fe;
+}
+#wrap .todolist .output li .delete i {
+  line-height: 40px;
+  font-size: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #79c9fe;
+}
+/*# sourceMappingURL=style.css.map */

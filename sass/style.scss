@@ -1,0 +1,99 @@
+body {
+  background: #e9fbff;
+  margin-top: 50px;
+}
+#wrap {
+  width: 100%;
+  .todolist {
+    width: 500px;
+    margin: auto;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    box-shadow: 1px 1px 20px #8ed1fe;
+    h2 {
+      font-size: 38px;
+      font-weight: 700;
+      text-align: center;
+      padding: 30px 0;
+    }
+    input {
+      display: block;
+      margin: auto;
+      width: 300px;
+      height: 40px;
+      padding-left: 10px;
+      box-sizing: border-box;
+      margin-bottom: 30px;
+    }
+    .output {
+      li {
+        border-bottom: 1px solid #dcdcdc;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        .check {
+          i {
+            font-size: 40px;
+            color: #79c9fe;
+            line-height: 60px;
+          }
+        }
+        p {
+          width: 300px;
+          font-size: 22px;
+          line-height: 60px;
+          font-weight: 300;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          position: relative;
+          input {
+            transform: translateY(38%);
+          }
+        }
+        .correction {
+          width: 40px;
+          height: 40px;
+          border: 1px solid #8ed1fe;
+          border-radius: 50%;
+          position: relative;
+          &:hover {
+            box-shadow: 1px 1px 15px #79c9fe;
+          }
+          i {
+            line-height: 40px;
+            font-size: 26px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #79c9fe;
+          }
+        }
+        .delete {
+          width: 40px;
+          height: 40px;
+          border: 1px solid #8ed1fe;
+          border-radius: 50%;
+          position: relative;
+          &:hover {
+            box-shadow: 1px 1px 15px #79c9fe;
+          }
+          i {
+            line-height: 40px;
+            font-size: 26px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #79c9fe;
+          }
+        }
+      }
+    }
+  }
+}
